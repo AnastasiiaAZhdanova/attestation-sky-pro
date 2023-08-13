@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const SearchUsersText = styled.p`
-  font-size: 22px;
+  font-size: 28px;
   color: #ffffff;
 `;
 
@@ -21,7 +21,7 @@ height: 62px;
   border-radius: 20px;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 24px;
   letter-spacing: -0.003em;
   color: #ffffff;
@@ -32,7 +32,7 @@ height: 62px;
 `;
 
 export const SearchTitleText = styled.p`
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 600;
   color: #ffffff;
 `;
@@ -65,7 +65,7 @@ export const SearchDivUsers = styled.div`
 `;
 
 export const SearchDivUsersItem = styled.p`
-  font-size: 22px;
+  font-size: 28px;
   color: #ffffff;
   display: flex;
   flex-direction: row;

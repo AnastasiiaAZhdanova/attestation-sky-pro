@@ -1,12 +1,7 @@
 import { useState, useRef } from "react";
 import Search from "../Search/Search";
 
-import {
-  MainDiv,
-  MainDivItem,
-  SearchInput,
-  SearchButton,
-} from "./styled";
+import { MainDiv, MainDivItem, SearchInput, SearchButton } from "./styled";
 
 function Main(): JSX.Element {
   const [valueInput, setValueInput] = useState("");

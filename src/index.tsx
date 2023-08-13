@@ -7,7 +7,9 @@ import { AppRoutes } from "../src/routes";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-  body {
+  * {
+    padding: 0;
+    margin: 0;
     font-family: 'Montserrat';
   }
 `;
@@ -19,7 +21,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Provider store={store}>
-      <GlobalStyle />
+        <GlobalStyle />
         <AppRoutes />
       </Provider>
     </BrowserRouter>

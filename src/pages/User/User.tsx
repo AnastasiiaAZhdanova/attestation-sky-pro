@@ -29,7 +29,11 @@ function UserPage(): JSX.Element {
   }
 
   if (!isLoading && data === undefined) {
-    return <UserErrorText>Упс, что-то пошло не так! Попробуй еще раз...</UserErrorText>;
+    return (
+      <UserErrorText>
+        Упс, что-то пошло не так! Попробуй еще раз...
+      </UserErrorText>
+    );
   }
   let user = data.items[0];
 
