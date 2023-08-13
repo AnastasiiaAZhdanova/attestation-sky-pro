@@ -2,7 +2,7 @@ import styled from "styled-components";
 import usersImg from "../../img/Users.jpg";
 
 export const UserErrorText = styled.p`
-  font-size: 24px;
+  font-size: 28px;
   color: #000000;
 `;
 
@@ -51,20 +51,17 @@ export const Image = styled.img`
 `;
 
 export const UserTitleText = styled.p`
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 600;
   color: #ffffff;
 `;
 
 export const UserText = styled.p`
-  font-size: 22px;
+  font-size: 28px;
   color: #ffffff;
 `;
 
 export const UserLink = styled.a`
-  font-size: 22px;
+  font-size: 28px;
   color: #ffffff;
-  
 `;
-
-
